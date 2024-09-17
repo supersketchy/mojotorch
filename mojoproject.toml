@@ -1,0 +1,12 @@
+[project]
+authors = ["Pinak Paliwal <pinakpaliwal07@gmail.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max"]
+description = "A pytorch-compatible interface with mojo by modular"
+name = "mojotorch"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = ">=24.5.0,<25"
